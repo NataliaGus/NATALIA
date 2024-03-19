@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio16</title>
+</head>
+<body>
+    <h2>Completa el formulario</h2>
+    <form action="">
+
+<label for="name">Nombre:</label><br>
+<input type="text" maxlength="10"><br>
+<label for="dni">Dni</label><BR>
+<input type="text" pattern="[0-9]{8}[A-Za-z]" title="Introduce un dni válido, 8 dígitos seguidos de una letra.">    
+<br><label for="name">Contraseña:</label><br>
+<input type="password"><br>
+<label for="name">Correo Electrónico:</label><br>
+<input type="email"><br>
+<label for="name">Edad:</label><br>
+<input type="number"><br>
+<label for="name">Teléfono:</label><br>
+<input type="tel" pattern="[0-9]{9}"><br><br>
+
+<fieldset>
+<legend>Género</legend>
+<!-- El id tiene que ser lo mismo que el for -->
+<input type="radio" name="Sexo" id="Masculino" value="Masculino">
+<label for="Masculino">Masculino</label><br>
+<input type="radio" name="Sexo" id="Femenino" value="Femenino">
+<label for="Femenino">Femenino</label>
+</fieldset><br><br>
+Selecciona un archivo: <br><br>
+<input type="file"><br><br>
+
+<input type="checkbox" name="newsletter" id="newsletter" checked >
+<label for="newsletter">Suscribirme al boletín</label><br><br>
+<button type="submit">Enviar</button>
+
+
+    </form>
+</body>
+</html>

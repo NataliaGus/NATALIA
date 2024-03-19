@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio17</title>
+</head>
+<body>
+    <h2>Completa el formulario</h2>
+    <form action="">
+
+<label for="Nombre">*Nombre:</label><br>
+<input type="text" name="nombre" id="Nombre" maxlength="10" required><BR></BR>
+<label for="Dni">*DNI:</label><br>
+<input type="text" name="nombre" id="Dni" pattern="[0-9]{8}[A-Za-z]" title="Introduce un DNI válido (8 dígitos seguidos de una letra)." required><BR></BR>
+<label for="Teléfono">*Teléfono:</label><br>
+<input type="text" name="nombre" id="Teléfono" title="Introduce un número de teléfono válido de 9 dígitos.
+" pattern="[0-9]{9}" required>
+<fieldset>
+    <legend>
+        Género
+    </legend>
+    <input type="radio" name="Sexo" id="Masculino" value="Masculino">
+    <label for="Masculino">Masculino</label><br>
+    <input type="radio" name="Sexo" id="Femenino" value="Femenino">
+    <label for="Femenino">Femenino</label>
+</fieldset>
+<br>
+ <fieldset>
+<legend>Intereses:</legend> 
+<input type="checkbox" name="Hobbys" id="Deporte" value="Deporte">Deporte<br>
+<input type="checkbox" name="Hobbys" id="Música" value="Música">Música<br>
+<input type="checkbox" name="Hobbys" id="Lectura" value="Lectura">Lectura<br>
+</fieldset>
+<br>
+Selecciona un archivo: <br>
+<input type="file" name="Archivo" id="Archivo"><br><br>
+<button type="submit">Enviar</button>
+
+
+
+    </form>
+</body>
+</html>                         
