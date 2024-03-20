@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio18</title>
+</head>
+<body>
+    <h2>Completa el formulario:</h2>
+
+    <form action="Ejercicio18.html">
+<label for="Nombre">*Nombre:</label><br>
+<input type="text" name="datos" id="Nombre" maxlength="10" required><br><br>
+
+<label for="Contraseña">*Contraseña:</label><br>
+<input type="password" name="password" id="Contraseña" required><br><br>
+
+<label for="Correo">*Correo Electrónico:</label><br>
+<input type="email" name="Email" id="Correo" required><br><br>
+
+<label for="Teléfono">*Teléfono:</label><br>
+<input type="tel" name="Teléfono" id="Teléfono" pattern=" [0-9]{9}" title="Introduce un número de 9 dígitos" required><br><br>
+
+<label for="Fecha">*Fecha de Nacimiento:</label><br>
+<input type="date" name="Fecha" id="Fecha" required><br><br>
+
+<fieldset>
+
+<legend>Selecciona un Género</legend>
+
+<input type="radio" name="Sexo" id="Masculino" value="Masculino">
+<label for="Masculino">Masculino</label><br>
+<input type="radio" name="Sexo" id="Femenino" value="Femenino">
+<label for="Femenino">Femenino</label><br>
+<input type="radio" name="Sexo" id="Otro" value="Otro">
+<label for="Otro">Otro</label><br>
+</fieldset>
+<br>
+Selecciona un archivo <br>
+<input type="file" name="Archivo" id="Archivo"><br><br>
+
+<label for="País">*País:</label> <br>
+<select name="pais" id="País" required>
+    <option value="" disabled selected>Selecciona un País</option>
+<option value="espana">España</option>
+<option value="Francia">Francia</option>
+<option value="Italia">Italia</option>
+<option value="Alemania">Alemania</option>
+<option value="Polonia">Polonia</option>
+</select><br><br>
+
+<label for="mensaje">*Mensaje:</label><br>
+<textarea name="Consulta" id="mensaje" cols="30" rows="3" required></textarea><br><br>
+
+<input type="checkbox" name="privacidad" id="política" checked>
+<label for="política">Acepto la</label> <a href="www.google.es">política de privacidad.</a><br><br>
+
+<button type="submit">Enviar</button>
+<button type="reset">Restablecer</button>
+
+    </form>
+</body>
+</html>
