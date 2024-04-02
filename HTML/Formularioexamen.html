@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario exámen</title>
+</head>
+<style>
+
+body{
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0%;
+/* animation: fondo 10s infinite alternate;
+} */
+animation: fondo 5s infinite alternate;
+}
+form{
+    background-color: skyblue;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px
+}
+
+@keyframes fondo{
+    from{background-color: white;}
+    to{ background-color: pink;}
+}
+ input#color {
+    border-radius: 50%;
+    width:1.6rem;
+    height: 1.6rem;
+ }
+</style>
+
+<body>
+    
+<form action="" class="fondo">
+        
+            <h1>Formulario ejemplo exámen</h1>
+        
+        <p>
+            <label for="Name">Nombre:</label>
+            <input type="text" id="Nombre" maxlength="10"> 
+        
+        <p>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" name="email" id="Correo">
+       
+        </p>
+        <p>
+            <label for="link">URL:</label>
+            <input type="link" placeholder="Escribe la URL de tu página..." >
+        </p>
+
+        <p>
+            <label for="Date">Fecha:</label>
+            <input type="date" name="Fecha" id="Date">
+        </p>
+
+        <p>
+            <label for="Tiempo">Tiempo:</label>
+            <input type="time" name="Tiempo" id="tiempo">
+        </p>
+
+        <p>
+            <label for="Fecha y Hora">Fecha y Hora:</label>
+            <input type="date" name="date">
+            <input type="time" name="Tiempo" >
+        </p>
+
+        <p>
+            <label for="Mes">Mes:</label>
+            <input type="month" name="Mes" id="Mes">
+        </p>
+
+        <p>
+            <label for="Semana">Semana:</label>
+            <input type="week" name="Semana" id="Semana">
+        </p>
+
+        <p>
+            <label for="Número">Número (mín -10, máx 10):</label>
+            <input type="number" name="Número" min="-10" max="10">
+        </p>
+
+        <p>
+            <label for="Teléfono">Teléfono:</label>
+            <input type="tel" name="Teléfono">
+        </p>
+
+        <p>
+            <label for="Término de búsqueda">Término de búsqueda:</label>
+            <input type="text" name="Término de búsqueda">
+        </p>
+
+        <p>
+            <label for="color">Color favorito:</label>
+            <input type="color" name="color" id="color">
+        </p>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
