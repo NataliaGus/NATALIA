@@ -1,0 +1,29 @@
+.contenedor-mv{
+
+/* aspecto visual */
+
+    border: 1px solid black;
+padding: 3px;
+width: 200px;
+align-items: flex-end;
+
+/* flexbox */
+
+display: flex;
+flex-direction: column;
+
+;
+
+}
+
+.boton-mv{
+
+    border: 1px solid darkred;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40%;
+   
+    
+}
+

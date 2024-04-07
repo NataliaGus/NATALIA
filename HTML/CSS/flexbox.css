@@ -21,7 +21,13 @@ justify-content: space-around;
 align-items: center;
 }
 
-.flex-container div {
+.izq, .der{
+
+    padding: 3px !important;
+    background-color:darkblue !important;
+}
+
+.flex-container > div {
 background-color: chartreuse;
 margin: 10px;
 padding: 20px;
@@ -34,3 +40,36 @@ text-align: center;
 height: 50px;
 
 }
+
+.menu {
+justify-content: space-between;
+
+}
+
+
+.izq div, .der div{
+
+background-color: aquamarine;
+margin: 1px;
+font-size: 1.5 rem;
+padding: 10px 15px;
+}
+
+.Home{
+    order: -2;
+}
+
+.vertical{
+
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+    padding: 40px 30px;
+  
+}
+
+footer{
+
+    padding: 50vh;
+}
+

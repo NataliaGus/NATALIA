@@ -1,0 +1,27 @@
+#main{
+
+    width: 80%;
+    background-color: lightgray;
+    margin: 50px auto;
+    padding: 20px; 
+    
+}
+
+
+
+#main h1{
+
+    font-size: 28px;
+   font-family: cursive;
+   text-align: center;
+   margin-bottom: 20px;
+
+}
+
+#main p{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: left;
+font-size: 18px;
+margin-bottom: 20px;
+}
