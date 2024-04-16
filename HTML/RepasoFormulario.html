@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso Formulario</title>
+</head>
+<body>
+
+<h1>Formulario Repaso</h1>
+
+<form action="mailto:correo@gmail.com" method="post">
+
+<p>
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre">
+</p>
+
+<p>
+    <label for="correo">Correo Electrónico:</label>
+    <input type="email" name="correo" id="correo">
+</p>
+
+<p>
+    <label for="url">URL:</label>
+    <input type="text" name="url" id="url" value="Escribe el URL de tu página web">
+</p>
+
+<p>
+    <label for="Fecha">Fecha:</label>
+<input type="date" name="Fecha" id="Fecha">
+</p>
+
+<p>
+    <label for="Tiempo">Tiempo:</label>
+<input type="time" name="Tiempo" id="Tiempo">
+</p>
+
+<p>
+    <label for="Fechayhora">Fecha y hora:</label>
+<input type="datetime-local" name="Fechayhora" id="Fechayhora"> 
+</p>
+
+<p>
+    <label for="mes">Mes:</label>
+<input type="month" name="mes" id="mes">
+
+</p>
+
+<p>
+    <label for="semana">Semana:</label>
+<input type="week" name="semana" id="semana">
+</p>
+
+<p>
+    <label for="number">Número (mín -10, máx: 10):</label>
+<input type="number" name="number" id="number" min="-10" max="10" value="0">
+</p>
+
+<p>
+    <label for="tlf">Teléfono:</label>
+    <input type="tel" name="tlf" id="tlf" pattern="[0-9]{8}">
+</p>
+
+<p>
+    <label for="busqueda">Término de búsqueda:</label>
+<input type="search" name="busqueda" id="busqueda">
+</p>
+
+<p>
+    <label for="color">Color favorito:</label>
+    <input type="color" name="color" id="color">
+</p>
+<p>
+
+    <button type="submit" value="Enviar">Enviar</button>
+</p>
+</form>
+</body>
+</html>

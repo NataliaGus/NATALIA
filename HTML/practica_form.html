@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica Formulario</title>
+</head>
+<body>
+    <h1>Formulario de reserva</h1>
+
+    <form action="">
+<label for="tmt">Tratamiento:</label>
+<select name="tmt" id="tmt">
+<option value="Mr">Mr</option>
+<option value="Ms">Ms</option>
+<option value="Mrs">Mrs</option>
+
+</select>
+<br><br>
+
+
+<label for="Nombre">Nombre:</label>
+<input type="text" name="Nombre" maxlength="8"><br><br>
+
+<label for="Correo">Correo Electrónico:</label>
+<input type="email" name="Correo"><br><br>
+
+<label for="Teléfono">Teléfono:</label>
+<input type="tel" name="number" id="Teléfono">
+
+<p>
+    Por favor, seleccione el tipo de habitación:
+</p>
+
+<input type="radio" id="ind" name="tipo" value="Individual">
+<label for="">Individual</label><br>
+
+<input type="radio" id="dob" name="tipo" value="Doble">
+<label for="">Doble</label><br>
+
+<input type="radio" id="del" name="tipo" value="Deluxe">
+<label for="">Deluxe</label><br>
+
+<p>Seleccione los extras que desea contratar:</p>
+
+<input type="checkbox" id="extra1" name="extra1" value="Lavandería">
+<label for="extra1">Lavandería</label><br>
+
+<input type="checkbox" id="extra2" name="extra2" value="Cena" >
+<label for="extra2">Cena</label><br>
+
+<input type="checkbox" id="extra3" name="extra3" value="Desayuno" checked>
+<label for="extra3">Desayuno</label><br>
+
+<input type="checkbox" id="extra4" name="extra4" value="Minibar">
+<label for="extra4">Minibar</label>
+
+
+<p>
+    Documento de identidad escaneado
+
+    <input type="file" name="dni" id="dni">
+</p>
+
+<input type="button" value="Reservar">
+
+</form>
+</body>
+</html>

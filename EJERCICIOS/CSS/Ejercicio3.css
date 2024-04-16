@@ -1,0 +1,59 @@
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
+/* Estilos para el contenedor principal */
+
+.main{
+ line-height: 2;
+    letter-spacing: 5px;
+    padding: 20px;
+    background-color: rgb(94, 105, 102);
+    height: 100vh;
+
+}
+
+/* Estilos para las secciones */
+
+.section{
+
+    width: 80%;
+    margin: 0px auto; 
+    /* Margen superior e inferior de 50 píxeles, centrado horizontalmente */
+    padding: 20px;
+    text-align: justify;
+
+}
+
+    /* Estilos para el título de la sección */
+    h2 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    /* Estilos para los párrafos de la sección */
+    p {
+        margin-bottom: 20px;
+    }
+
+
+    /* Estilos para la primera sección */
+    .clase1 {
+        background-color: #f0f0f0;
+    }
+
+
+    /* Estilos para la segunda sección */
+    .clase2 {
+        background-color: #dcdcdc;
+    }
+
+
+
+
+
+
+

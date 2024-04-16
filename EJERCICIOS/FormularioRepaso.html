@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Repaso</title>
+</head>
+<body>
+
+    <h1>Formulario de Registro</h1>
+   <form action="mailto:ejemplo@gmail.com" method="post">
+
+
+<label>Género:</label><br>
+
+<input type="radio" name="tipo" id="hombre" value="Hombre" checked>
+<label>Hombre</label><br>
+<input type="radio" name="tipo" id="mujer" value="Mujer">
+<label>Mujer</label><br>
+<input type="radio" name="tipo" id="otro" value="Otro">
+<label>Otro</label><br><br>
+
+<label for="nombre">Nombre:</label><br>
+<input type="text" name="nombre" id="nombre" maxlength="10"><br>
+<label for="apellidos">Apellidos:</label><br>
+<input type="text" name="apellidos" id="apellidos" maxlength="20"  size="40" ><br>
+<label for="Provincia">Provincia:</label><br>
+<input type="text" name="Provincia" id="Provincia" ><br>
+<label for="contrasena">Contraseña:</label><br>
+<input type="password" name="contraseña" id="contraseña" ><br>
+<label for="dni">DNI:</label><br>
+<input type="text" name="dni" pattern="[0-9]{8}[A-Za-z]{1}" ><br>
+
+<p>
+    Subir foto DNI: 
+    <input type="file" name="dni" id="dni">
+</p>
+<p>
+    <input type="checkbox" name="newsletter" id="newsletter" checked> Subscribirme a la newsletter
+</p>
+<p>
+   <button type="submit" value="Enviar">Enviar</button>
+   <button type="reset">Restablecer Datos</button>
+
+</p>
+   </form>
+</body>
+</html>

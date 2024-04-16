@@ -1,0 +1,51 @@
+div{
+
+    text-align: center;
+    padding: 25px;
+}
+
+#borde1{
+ border: 2px solid black;
+}
+
+#borde2{
+
+    border-bottom: 2px solid red;
+    background-color: blanchedalmond;
+}
+
+#borde3{
+
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#borde4{
+
+    border-left: 2px solid blue ;
+    background-color: aqua;
+}
+
+h2 ~ div {
+    border: 3px solid orange;
+    margin: 20px;
+    background-color: bisque;
+}
+
+#dotted {border-style: dotted;}
+#dashed {border-style: dashed;}
+#double {border-style: double;}
+#groove {border-style: groove;}
+#ridge {border-style: ridge; border-color: aqua;}
+#inset {border-style: inset;}
+#outset {border-style: outset;}
+#none {border-style: none;}
+#hidden {border-style: hidden;}
+#mix {border-style: dotted dashed solid double;}
+
+
+#width {
+    border-width: 25px 10px 4px 35px ;
+    /* 25 arriba, 10 derecha, 4 abajo, 35 izquierda */
+    border-color: aqua red orange green;
+}
