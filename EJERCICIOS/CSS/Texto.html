@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto</title>
+    <link rel="stylesheet" href="texto.css">
+</head>
+<body>
+     <h1>Formateo de texto con CSS</h1>
+
+     <p>
+        CSS tiene un montón de propiedades para dar formato y alterar el texto.
+     </p>
+
+     <h2>Color</h2>
+     <div id="color">
+<h2>Esto es un título</h2>
+<p>
+    Este recuadro (div) tiene el fondo gris y texto azul.
+</p>
+<div>Esto es un div</div>
+</div>
+
+<p>
+    Para una buena lectura de nuestra web, es importante un alto contraste entre el texto y el fondo. Lo ideal es básicamente, es usar letra negra sobre fondos claros y letra blanca sobre fondos oscuros.
+</p>
+<p id="mal-ejemplo-color">Este texto no se distingue muy bien del fondo, por lo que la gente con problemas de visión no podrá entender el texto.</p>
+
+<h2>Alineamiento</h2>
+<p>Un texto puede estar alienado a la izquierda (por defecto), a la derecha, al centro o justificado.</p>
+
+<div id="alinear">
+    <p>Este párrafo está alineado a la izquierda.</p>
+    <p>Este párrafo está alineado a la derecha.</p>
+    <p>Este párrafo está alineado al centro.</p>
+    <p>Este párrafo está alineado justificado. El texto ocupa toda la linea. </p>
+</div>
+<h2>Dirección del texto</h2>
+<p id="invertido">
+    Este texto tiene la dirección invertida.
+</p>
+     
+<h2>Dirección del texto (text-decoration)</h2>
+
+<p>
+    Se usa <code>text-decoration</code> como atajo de las siguientes propiedades:
+</p>
+<ul>
+    <li><code>text-decoration</code> añade una línea decorativa al texto.</li>
+    <li><code>text-decoration-color</code> asigna el color de la línea.</li>
+    <li><code>text-decoration-style</code> asigna el estilo de la línea (como los bordes).</li>
+    <li><code>text-decoration-thickness</code> asigna el grosor de la línea.</li>
+  
+   
+</ul>
+
+<div id="deco">
+    <h2>Texto de ejemplo</h2>
+    <h3>Texto de ejemplo</h3>
+    <h4>Texto de ejemplo</h4>
+    <p> Texto de ejemplo</p>
+</div>
+
+<p>
+    No es aconsejable subrayar texto que no sea un link, ya que puede provocar confusión al lector.
+</p>
+
+<h3>Decoración de links</h3>
+<p>Un link por defecto tiene este <a href="#">aspecto.</a></p>
+<p>Podemos usar <code>text-decoration: none</code> para remover la linea de los links: <br><br> <a href="#" id="deco-a">Link sin decoración.</a></p>
+
+
+<h2>Transformacion del texto</h2>
+
+<p>
+    La propiedad <code>text transform</code> se usa para especificar letras mayúculas y minúsculas en el texto.
+</p>
+
+<div id="transformar">
+    <p>Este texto está transformado en mayúsculas.</p>
+    <p>Este texto está transformado en minúsculas.</p>
+    <p>Este texto está capitalizado.</p>
+</div>
+
+<h2>Espaciado del texto</h2>
+<h3>Indentación</h3>
+<p id="indentar">
+    La propiedad <code>text-indent</code> se usa para especificar el espaciado en la primera línea de un texto.
+
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ad quibusdam culpa perspiciatis harum asperiores illum recusandae ab pariatur inventore, tempora voluptates sequi eligendi debitis minus. Reprehenderit corporis adipisci suscipit.
+</p>
+
+
+<h2>Espaciado entre caracteres</h2>
+<h3 id="esp1">Título con espaciado aumentado</h3>
+<h3 id="esp2">Título con espaciado disminuido</h3>
+
+<h2>Altura de línea</h2>
+
+<div id="altura">
+    <p>Este es un párrafo con altura de línea normal.</p>
+    <p>Este es un párrafo con altura de línea disminuida.</p>
+    <p>Este es un párrafo con altura de línea aumentada.</p>
+</div>
+
+<h2>Espaciado entre palabras</h2>
+
+<div id="esp-palabras">
+    <p>Este es un párrafo con espaciado entre palabras normal. </p>
+    <p>Este es un párrafo con espaciado entre palabras disminuido. </p>
+    <p>Este es un párrafo con espaciado entre palabras aumentado. </p>
+</div>
+
+<h2>Sombras</h2>
+
+<p>
+    La propiedad <code>text-shadow</code> añade sombra al texto.
+</p>
+<p>
+    El uso más sencillo consiste en especificar sombra horizontal y vertical. Dos atributos <code>text-shadow: 2px 2px</code>
+
+    <div id="sombras">
+        <h2>Título con sombra.</h2>
+        <h2>Título con sombra a color.</h2>
+        <h2>Título con sombra borrosa.</h2>
+
+
+
+        <p>Sombra sobre texto blanco</p>
+        <h2>Susana</h2>
+
+        <p>Sombra con efecto Neón</p>
+        <h2>Zaloa</h2>
+
+        <p>Sombra con efecto Neón bicolor</p>
+        <h2>Cristina</h2>
+        <h2>Jonathan</h2>
+    </div>
+</p>
+
+</body>
+</html>
