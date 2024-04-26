@@ -1,0 +1,169 @@
+*{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+#caja{
+    background-color: coral;
+    width: 800px;
+    height: 600px;
+    margin: auto; 
+    padding: 40px;
+
+
+}
+
+img{
+    width: 80px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+header>div p{
+    font-size: 12px;
+}
+
+header img{
+    
+    width: 80px;
+    margin-bottom: -8px;
+}
+
+header ul{
+
+   display: flex;
+   text-align: center;
+   justify-content: space-around;
+
+  
+}
+
+header ul li{
+    display: flex;
+    align-items: end;
+    padding: 5px 0;
+
+}
+
+header ul a{
+    color: white;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+ .select{
+   margin-bottom: -10px;
+    border-bottom: 10px solid white; 
+}
+
+header div{
+margin-bottom: -13px;
+margin-right: 15px;
+}
+
+#yoga{
+    width: 350px;
+    display: block;
+    margin: 10px auto;
+}
+
+#flecha {
+            width: 100px;
+            position: relative;
+            left: 50%;
+        }
+
+        #contenedor {
+            width: 800px;
+            height: 600px;
+            background-color: rgb(138, 107, 139);
+            padding: 40px;
+            margin: auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header p {
+            color: white;
+            font-size: 9px;
+        }
+
+        header img {
+            margin-bottom: -6px;
+        }
+
+        header ul {
+            display: flex;
+            text-align: center;
+        }
+
+        header ul li {
+            display: flex;
+            align-items: end;
+            padding: 5px 0;
+        }
+
+        header ul a {
+            color: white;
+            padding: 0 20px;
+            font-weight: bold;
+        }
+
+        .select {
+            border-bottom: 7px solid white;
+            /* Hay que meterle un margen en negativo para equilibrar los píxeles que ha desplazado el borde, por tanto tienen que ponerse los mismos píxeles que hemos puesto de borde pero en negativo */
+            margin-bottom: -7px;
+        }
+
+        header div {
+            margin-bottom: -12px;
+            margin-right: 50px;
+        }
+
+        form {
+            /* width: 450px; */
+            position: relative;
+            left: 65%;
+            bottom: 90px;
+        }
+
+        h3, label {
+            font-weight: 100;
+            color: white;
+            margin: 10px 0;
+            font-size: 14px;
+        }
+      
+        #email, #nombre {
+            background-color: thistle;
+            border: none;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        #email::placeholder, #nombre::placeholder {
+            color:rgb(138, 107, 139) ;
+        }
+
+        #enviar {
+            width: 120px;
+            border: 1px solid white;
+            background-color: thistle;
+            padding: 5px;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+       

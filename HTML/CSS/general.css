@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
 body{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -10,4 +12,16 @@ table{
 
 table tr{
     border: 1px solid black;
+}
+
+code{
+    background-color: rgb(60, 60, 60);
+    color: lightblue;
+    font-family: 'Kode Mono';
+}
+
+.recuadro{
+    border: 3px solid black;
+    margin: 0 auto;
+    padding: 0 5px;
 }

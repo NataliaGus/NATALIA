@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio31</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #site-header{
+            background-color: brown;
+        }
+
+        #site-header nav ul a{
+            color: white;
+            padding: 15px;
+            display: block;
+            text-align: center;
+        }
+
+        #site-header{
+            background-color: firebrick;
+        }
+
+        #site-header{
+            color: white;
+            padding: 15px;
+            display: block;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #site-header nav ul a:hover{
+            background-color: black;
+        }
+
+        #site-header nav ul li ul{
+            display: none;
+        }
+
+        #site-header nav ul>li:nth-child(4):hover ul{
+            display: block;
+            background-color: chocolate;
+        }
+
+        @media (min-width: 1024px) {
+            #site-header nav>ul{
+                display: flex;
+                background-color: firebrick;
+            }
+
+
+            #site-header nav>ul>li:nth-child(4){
+            position: relative;
+        } 
+
+        #site-header nav ul>li:nth-child(4) ul{
+            position: absolute;
+            top: 100%;
+            
+        }
+        }
+</style>
+</head>
+<body>
+    <header id="site-header">
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a>
+                <ul>
+                    <li><a href="#">Servicio 1</a></li>
+                    <li><a href="#">Servicio 2</a></li>
+                    <li><a href="#">Servicio 3</a></li>
+                  </ul>
+              </ul></li>
+           
+        </nav>
+      </header>
+
+ 
+</body>
+</html>

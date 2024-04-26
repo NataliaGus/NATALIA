@@ -109,5 +109,16 @@ blockquote{
     font-style: italic;
 }
 
+#site-main blockquote footer{
+    margin-top: 10px;
+}
+
+#site-footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
 
 

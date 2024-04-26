@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#beach {
+
+    background-image: url(https://static.nationalgeographic.es/files/styles/image_3200/public/01_gettyimages-1255975174.jpg?w=1600&h=900);
+    background-position: center;
+    background-size: cover;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: maroon;
+    font-size: 1.5rem;
+
+} 
+
+
+
+.button{
+    text-decoration: none;
+    color: brown;
+    border: 2px solid brown;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+.button:active{
+    transform: translateY(5px);
+}
+
+.button:hover {
+    color: ivory;
+    background-color: brown;
+}
+
+#section-c>div.box-1, div.box-2, div.box-3{
+    padding: 20px;
+    line-height: 150%;
+    text-align: left;
+
+}
+
+#section-c{
+    display: flex;
+}
+
+#section-a{
+    background-color:chocolate;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    line-height: 200%;
+}
+
+#section-b{
+    background-color: bisque;
+color: chocolate;
+padding: 20px;
+text-align: center;
+line-height: 2;
+}
+
+#section-c .box-1{
+    background-color: chocolate;
+    color: white;
+   
+}
+
+#section-c .box-2{
+ color: chocolate;
+ background-color: bisque;
+ 
+}
+
+#section-c .box-3{
+    background-color: chocolate;
+    color: white;
+  
+}
+
+
+
+
+
+  
+

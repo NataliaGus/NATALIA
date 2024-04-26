@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejericio23</title>
+
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#site-nav{
+
+    background-color: darkcyan;
+    padding: 0 20px; 
+    position: relative;  
+}
+
+#site-nav ul a{
+    color: white;
+ padding: 20px;
+display: inline-block;
+
+}
+
+#site-nav>ul{
+    display: flex;
+    
+}
+
+#site-nav li>ul{
+    position: absolute;
+    background-color: grey;
+    width: 100%;
+    right: 0;
+text-align: center;
+   
+}
+
+
+ 
+#site-nav>ul>li>ul{
+    background-color: grey;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+  
+  
+    
+}
+
+
+
+    </style>
+</head>
+<body>
+     <nav id="site-nav">
+       <ul>
+            <li><a href="#">Uno</a></li>
+            <li><a href="#">Dos</a></li>
+            <li><a href="#">Tres</a>
+                <ul>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Cuatro</a></li>
+       </ul>
+   </nav>
+
+
+</body>
+</html>
