@@ -1,0 +1,45 @@
+a:link{
+    color: #00FF00;
+    /* color: #RGB o #RRGGBB -> valores de 0 a F (de 0 a 15) */
+}
+
+a:visited{
+    color: crimson;
+}
+
+a:hover{
+    color: dodgerblue;
+    /* cursor: crosshair; */
+}
+
+a:active{
+    color: blueviolet;
+}
+
+.ejemplo-div{
+    transition: all 0.5s;
+    /* fit-content es para que no se vea todo el background tan grande. */
+    width: fit-content;
+}
+
+.ejemplo-div:hover{
+    background-color: blue;
+    color: white;
+    font-size: 1.15rem;
+    cursor: pointer;
+    padding: 5px 8px;
+}
+
+.ejemplo-tooltip p {
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+    display: none;
+
+}
+
+.ejemplo-tooltip:hover p{
+    display: block;
+}
