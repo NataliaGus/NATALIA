@@ -32,3 +32,79 @@ body{
     opacity: 0.5;
     color: fuchsia;
 }
+
+#site-header div>i{
+    border: 1px solid brown;
+    border-radius: 5px;
+    padding: 10px 12px;
+    color: brown;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#site-nav ul>li>ul{
+    display: none;
+}
+#site-nav ul>li:hover>ul{
+display: block;
+}
+#site-header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+#site-header div a{
+    font-size: 1.5em;
+    color: gray;
+}
+#site-header span{
+    color: brown;
+    font-size: 1.2em;
+}
+@media (min-width: 1024px){
+    #site-header div>i{
+        display: none;
+    }
+
+    #site-header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+    }
+#site-nav {
+    background-color: inherit;
+}
+
+#site-nav a{
+color: gray;
+}
+
+#site-nav ul{
+    display: flex;
+}
+
+#site-nav a:hover{
+    background-color: rgb(255, 211, 220);
+}
+
+#site-header div{
+    padding: 0;
+}
+
+#site-nav ul>li>ul{
+    background-color: darkslategray;
+    position: absolute;
+   top:100%;
+   right: 0;
+   width: 100%;
+
+}
+#site-nav ul>li>ul li{
+    width: 30%;
+    padding: 20px;
+    flex-wrap: nowrap;
+}
+
+}
