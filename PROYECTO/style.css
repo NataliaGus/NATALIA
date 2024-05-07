@@ -6,10 +6,90 @@
     text-decoration: none;
 }
 
+body{
+    padding: 0 150px;
+}
+
 img{
     width: 300px;
 }
 
 video{
     width: 300px;
+}
+
+span{
+    background-color: goldenrod;
+}
+
+span:hover{
+    background-color: white;
+    transition: 0.6s;
+    /* es para que salga la mano cuando te pones encima */
+    cursor: pointer;
+}
+
+/* Flecha */
+#site-header nav>ul>li{
+    position: relative;
+    margin: 0 20px;
+}
+
+#site-header nav ul li ul{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    right: 0;
+    padding-top: 10px;
+    display: none;
+}
+
+#site-header nav>ul li:hover ul{
+    display: block;
+}
+
+#site-header nav ul li>i{
+    color: brown;
+    position: absolute;
+    bottom: 150%;
+    left: 45%;
+    opacity: 0;
+}
+
+#site-header{
+ display: flex;  
+ align-items: center;
+ justify-content: space-between; 
+}
+
+#site-header nav ul li>a:hover + i{
+    bottom: 150%;
+    opacity: 1;
+    transition: opacity 1s, bottom 1s;
+}
+#site-header img{
+    width: 100px;
+    
+}
+#site-header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+#site-header nav ul>li{
+    margin-right: 25px;
+    letter-spacing: 1px;
+}
+
+#index-main h1{
+font-size: 5rem;
+margin-top: 100px;
+margin-bottom: 100px;
+padding: 40px 150px;
+}
+
+#index-main section article video:first-child{
+width: 100%;
 }
