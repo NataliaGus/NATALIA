@@ -2,14 +2,18 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+p{
+    font-size: 1.05rem;
 }
 
+h1{
+    font-size: 2.5rem;
+}
 img{
-    width: 300px;
+    width: 100%;
 }
 
 #site-header{
@@ -33,54 +37,104 @@ menu div {
     display: flex;
 }
 
+menu a:nth-child(2):hover, a:nth-child(3):hover, div a:last-child:hover{
+background-color: rgb(231, 169, 169);;
+}
 
 menu a{
     /* block */
     display: block;
     color: brown;
     font-weight: bold;
-    padding: 5px 15px;
+    padding: 20px 18px;
 }
 menu div:first-child a:first-child{
     background-color: rgb(163, 91, 91);
 }
 
-.izquierda h3{
+section.izquierda h3{
     color: brown;
 }
-.izquierda{
+section.izquierda{
     display: block;
     left: 0;
     background-color: rgb(243, 221, 225);
-    width: 50%;
-    padding: 20px 15px;
+    width: 40%;
+    padding: 20px 35px;
 }
 
-.izquierda img{
+section.izquierda img{
     display: block;
     margin: auto;
     border-radius: 5px;
 }
 
-.izquierda p{
-    margin: 10px 10px;
+section.izquierda p{
+    margin: 15px 15px;
 }
 
 
-.izquierda h3{
-    color: brown;
+section.izquierda h3{
+    color: brown; 
     margin-bottom: 10px;
+}
+
+.adopcion{
+border: 1px solid black;
+border-radius: 5px;
+padding: 10px 10px;
 }
 
 main{
     display: flex;
 }
 
-.derecha{
+section.derecha{
     background-color: rgb(241, 197, 205);
-    width: 50%;
-    padding: 20px 15px;
+    width: 60%;
+    padding: 20px 35px;
+    
 }
-.derecha h3{
+section.derecha h3{
     color: brown;
+    margin-bottom: 10px;
+}
+
+
+figcaption{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+section.derecha img{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+section.derecha p{
+    margin-bottom: 25px;
+}
+
+footer div{
+    background-color: black;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a{
+    color: white;
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+}
+footer p{
+    color: white;
+    font-size: 1rem;
 }
