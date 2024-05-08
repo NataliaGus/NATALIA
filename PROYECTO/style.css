@@ -11,11 +11,11 @@ body{
 }
 
 img{
-    width: 300px;
+    width: 100%;
 }
 
 video{
-    width: 300px;
+    width: 100%;
 }
 
 span{
@@ -63,7 +63,7 @@ span:hover{
 }
 
 #site-header nav ul li>a:hover + i{
-    bottom: 150%;
+    bottom: 100%;
     opacity: 1;
     transition: opacity 1s, bottom 1s;
 }
@@ -90,6 +90,68 @@ margin-bottom: 100px;
 padding: 40px 150px;
 }
 
-#index-main section article video:first-child{
+.ia{
 width: 100%;
 }
+
+#index-main section div{
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#index-main section p{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#index-main div p:hover{
+    color: brown;
+    transition: color 0.0s;
+}
+
+
+#index-main section>div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#index-main article{
+    width: 50%;
+}
+
+#index-main section>article{
+    width: 100%;
+}
+
+#index-main section>h2{
+    font-size: 5rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 40px 150px;
+}
+
+#index-main button{
+    display: block;
+    margin: auto;
+    font-size: 20px;
+}
+
+#indez-main article i{
+    margin-left: 10px;
+    color: goldenrod;
+    translate: 0px;
+    opacity: 1;
+}
+
+#index-main article p:hover i{
+    transition: translate 1s, opacity 1s;
+    translate: 40px;
+    opacity: 0;
+}
+
+#index-main .botón  {
+    border: 1px solid black;
+    font-size:
+}
+
