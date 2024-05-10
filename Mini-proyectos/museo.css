@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: "Sedan SC", serif;
+    
+}
+
+
+body{
+    display: block;
+    margin: auto;
+    height: 200vh;
+    }
+header {
+    padding: 50px;
+    background-color: #333;
+    color: white;
+
+    background-image: url(https://www.economiadigital.es/tendenciashoy/wp-content/uploads/2022/04/La-joven-de-la-perla-Vermeer.-Foto-EFE-Robin-Van-Lonkhuijsen-1282x780.jpg);
+    width: 100%;
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav div {
+    display: flex;
+}
+header nav div a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+header .titulo h1 {
+    text-align: center;
+    padding: 150px 0;
+}
+.logo{
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+
+
+.menu a span:nth-child(1){
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgb(224, 202, 202));
+    animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1{
+    0%{left: -100%}
+    50%, 100% {left:100%}
+}
+
+/* Galería */
+main.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+main.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1800px;
+    justify-content: center;
+    padding: 150px 0;
+}
+
+main.gallery div.imagen{
+    width: 25%;
+    height: 33%;
+    background-color: black;
+    border: 1px solid white;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    padding: 20px;
+}
+ 
+main.gallery div.imagen:first-child {
+    background-image: url(https://images.pexels.com/photos/3778180/pexels-photo-3778180.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+main.gallery div.imagen:nth-child(2){
+    background-image: url(https://images.pexels.com/photos/1001835/pexels-photo-1001835.jpeg);
+}
+
+main.gallery div.imagen:nth-child(3){
+    background-image: url(https://images.pexels.com/photos/3738123/pexels-photo-3738123.jpeg);
+}
+
+main.gallery div.imagen:nth-child(4){
+    background-image: url(https://images.pexels.com/photos/297494/pexels-photo-297494.jpeg);
+}
+
+main.gallery div.imagen:nth-child(5){
+background-image: url(https://images.pexels.com/photos/14517572/pexels-photo-14517572.jpeg);
+}
+
+main.gallery div.imagen:nth-child(6){
+    background-image: url(https://images.pexels.com/photos/615344/julius-caesar-rome-roman-empire-615344.jpeg);
+}
+
+main.gallery div.imagen:nth-child(7){
+background-image: url(https://images.pexels.com/photos/3166708/pexels-photo-3166708.jpeg);
+}
+
+main.gallery div.imagen:nth-child(8){
+background-image: url(https://images.pexels.com/photos/3680770/pexels-photo-3680770.jpeg);
+}
+
+main.gallery div.imagen:nth-child(9){
+background-image: url(https://images.pexels.com/photos/3683209/pexels-photo-3683209.jpeg);
+}
+
+div.imagen div.sumar{
+    width: 100%;
+    height: 0%;
+    background-color: white;
+    position: relative;
+    transition: all 0.5s;
+    
+}
+
+div.imagen div.sumar p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: brown;
+    display: none;
+}
+
+div.imagen:hover > div.sumar{
+height: 100%;
+}
+
+div.imagen:hover > div.sumar > p {
+    display: block;
+}
