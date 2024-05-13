@@ -32,9 +32,13 @@ span:hover{
 }
 
 /* Flecha */
-#site-header nav>ul>li{
+#site-header nav>ul>li:first-child, li:nth-child(2){
     position: relative;
     margin: 0 20px;
+}
+
+.active {
+    border-bottom: 2px solid goldenrod;
 }
 
 #site-header nav ul li ul{
@@ -50,6 +54,7 @@ span:hover{
     display: block;
 }
 
+
 #site-header nav ul li>i{
     color: brown;
     position: absolute;
@@ -62,6 +67,10 @@ span:hover{
  display: flex;  
  align-items: center;
  justify-content: space-between; 
+}
+
+#site-header>a{
+margin-left: 50px;
 }
 
 #site-header nav ul li>a:hover + i{
@@ -92,7 +101,7 @@ margin-bottom: 100px;
 padding: 40px 150px;
 }
 
-.ia{
+#index-main .ia{
 width: 100%;
 }
 
@@ -139,7 +148,7 @@ width: 100%;
     font-size: 20px;
 }
 
-#indez-main article i{
+#index-main article i{
     margin-left: 10px;
     color: goldenrod;
     translate: 0px;
@@ -178,13 +187,15 @@ footer {
     color: grey;
     margin: 10px;
     border-bottom: 2px solid grey;
+    padding: 10px;
+    
  }
  footer a:hover{
     color: goldenrod;
     border-bottom: 2px solid goldenrod;
  }
 footer p{
-    margin-top: 15px;
+    margin-top: 25px;
     font-size: 0.8rem;
 }
 
@@ -244,3 +255,137 @@ justify-content: space-between;
     font-size: 2.5rem;
     margin-bottom: 40px;
 }
+
+#nosotros-main section:nth-child(3) i{
+    color: darkorange;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+#nosotros-main section:nth-child(3) h2{
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+#nosotros-main section:nth-child(3){
+    padding: 100px;
+}
+#nosotros-main section:nth-child(3)>div {
+display: flex;
+justify-content: space-between;
+}
+
+#nosotros-main section:nth-child(3)>div div{
+    width: 22%;
+}
+
+#nosotros-main section:nth-child(3) h3{
+    font-size: 1.2rem;
+    margin-bottom: 10px; 
+}
+
+#index-main h1{
+    font-size: 5rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 40px 150px;
+    }
+
+    
+    #proyectos-main section div{
+        color: black;
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+    
+    #proyectos-main section p{
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    #proyectos-main div p:hover{
+        color: brown;
+        transition: color 0.0s;
+    }
+    
+    #proyectos-main section:nth-child(1){
+        margin-top: 30px;
+    }
+    
+    #proyectos-main section>div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #proyectos-main article{
+        width: 50%;
+    }
+    
+    #proyectos-main section>article{
+        width: 100%;
+    }
+    
+    #proyectos-main section>h2{
+        font-size: 5rem;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 40px 150px;
+    }
+    
+    #proyectos-main button{
+        display: block;
+        margin: auto;
+        font-size: 20px;
+    }
+    
+    #proyectos-main article i{
+        margin-left: 10px;
+        color: goldenrod;
+        translate: 0px;
+        opacity: 1;
+    }
+    
+    #proyectos-main article p:hover i{
+        transition: translate 1s, opacity 1s;
+        translate: 40px;
+        opacity: 0;
+    }
+
+    #proyectos-main {
+        padding: 0;
+    }
+
+    #proyectos-main section:nth-child(2){
+padding: 100px;
+    }
+
+    #proyectos-main section:nth-child(1){
+        background-color: black;
+        color: white;
+    
+        padding: 100px;
+    }
+    
+    #proyectos-main section h1{
+        color: goldenrod;
+        font-size: 3rem;
+    }
+    
+    #proyectos-main section p{
+        width: 45%;
+    
+    }
+    
+    #proyectos-main section:first-child div p:first-child{
+        color: grey;
+        font-weight: bold;
+        border-bottom: 2px solid goldenrod;
+        }
+    
+    
+    
+    #nosotros-main section:first-child div{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+        }

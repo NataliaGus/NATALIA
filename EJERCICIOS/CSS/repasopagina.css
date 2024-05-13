@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: none;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#site-header{
+    background-color: darkolivegreen;
+    padding: 150px;
+    text-align: center;
+}
+
+#site-header h1{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#site-menu>div{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: black;
+    font-size: 0.8rem;
+}
+
+#site-menu a{
+    color: white;
+    margin: 10px;
+}
+
+main{
+    display: flex;
+    height: 100%;
+    font-size: 1.2rem;
+}
+
+.izquierda div p{
+    padding: 15px;
+}
+
+.derecha div p{
+    padding: 15px;
+}
+
+div.izquierda  p:first-child{
+    background-color: lightblue;
+}
+
+ div.izquierda  p:nth-child(2){
+    background-color: lightcoral;
+}
+
+div.izquierda p:nth-child(3){
+    background-color: lightgoldenrodyellow;
+}
+div.izquierda div p:last-child{
+    background-color: lightgray;
+}
+
+div.derecha p:first-child{
+    background-color: lightpink;
+}
+div.derecha p:nth-child(2){
+    background-color: lightsalmon;
+}
+div.derecha p:nth-child(3){
+    background-color: lightseagreen;
+}
+div.derecha p:last-child{
+    background-color: lightskyblue;
+}
