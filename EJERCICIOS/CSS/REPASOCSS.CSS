@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contenedorprincipal{
+    background-color: rgb(39, 39, 39);
+    padding: 0 20px;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    background-color: skyblue;
+}
+header ul{
+display: flex;
+}
+
+header a{
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    /* los elementos de linea no cogen padding vertical por eso le damos display inline-block */
+    display: inline-block;
+}
+
+main{
+  background-color: white;  
+}
+
+main{
+    width: 70%;
+    background-color: white;
+}
+
+section{
+    padding: 30px 20px;
+}
+
+section h1, section p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+aside{
+    background-color: aquamarine;
+    padding: 50px;
+    height: 150px;
+    width: calc(30% - 100px);
+}
+
+aside h4{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+aside ul li{
+    border-bottom: 2px solid black;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: palevioletred;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 50px;
+    width: calc(70% - 100px);
+}
+
+.dos{
+    display: flex;
+    flex-wrap: wrap;
+}
+

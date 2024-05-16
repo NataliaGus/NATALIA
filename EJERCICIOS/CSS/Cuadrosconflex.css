@@ -1,0 +1,22 @@
+
+.container div {
+    padding: 20px;
+    border: 1px solid black;
+    height: 15%;
+    width: 15%;
+    background-color: #abc;
+    margin: 10px;
+    
+}
+
+.container{
+    background-color: #abc;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 600px;
+    height: 500px;
+    flex-direction: column;
+}
+
