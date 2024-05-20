@@ -17,6 +17,7 @@ video{
     width: 100%;
 }
 
+
 span{
     background-color: goldenrod;
 }
@@ -38,7 +39,7 @@ span:hover{
     border-bottom: 2px solid goldenrod;
 }
 
-#site-header nav ul li ul{
+#site-header nav >ul li ul{
     position: absolute;
     top: 100%;
     width: 100%;
@@ -409,5 +410,6 @@ padding: 100px;
         #site-aside .boton{
             background-color: goldenrod;
             padding: 5px;
-            border: none;     
+            border: none;    
+            margin-top: 25px; 
 }
